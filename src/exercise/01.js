@@ -39,6 +39,7 @@ let pokemonError
 // function PokemonInfo() {
 //   // extra 1
 //   if (pokemonError) {
+//   // aca se puede hacer return, pero throw funciona mejor
 //     throw pokemonError
 //   }
 
@@ -100,7 +101,8 @@ function PokemonInfo() {
   )
 }
 
-// Extra 3: la definicion de createResource está en otro lado, la utliza en PokemonInfo y se ahorra todo el extra 2.
+// Extra 3: la definicion de createResource está en otro lado, la utliza en PokemonInfo
+// y se ahorra todo el createResource del extra 2.
 
 function App() {
   return (
